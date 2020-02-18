@@ -5,6 +5,7 @@ function distanceFromHqInBlocks(endSt){
 
 function distanceFromHqInFeet(endSt){
   return (distanceFromHqInBlocks(endSt) * 264);
+<<<<<<< HEAD
 }
 
 function  distanceTravelledInFeet(stBlock, endBlock){
@@ -24,5 +25,7 @@ function calculatesFarePrice(stBlock, endBlock){
   } else {
     return "cannot travel that far"
   }
+=======
+>>>>>>> b72f0755ce95a15aeb0af52289e924b7f3127d7a
   
 }
